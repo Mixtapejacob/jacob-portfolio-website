@@ -11,10 +11,11 @@ body {
     /* Sets the font size to 16px */
     line-height: 1.6;
     /* Sets the line-height to 1.6 */
+    background-color: aqua;
   }
 
-  
-  
+
+
   h1 {
     font-size: 30px;
     font-weight: 600;
