@@ -40,27 +40,19 @@
 
     
 
-    <form method="post" id="contact-form">
-        <label class="standard-label" for="email">Email: </label>
-        <input type="email" id="email" required>
-
-        <label class="standard-label" for="tel">Telephone: </label>
-        <input type="tel" id="tel" pattern="\d{3}[\-]\d{3}[\-]\d{4}">
-
-        <label class="standard-label" for="message">Message: </label>
-        <textarea required maxlength="240" id="message"></textarea>
-        <input type="submit" value="Send message">
-    </form>
+    <fieldset> 
+        <legend>Contact details</legend>
+        <label>Email:<br />
+        <input type="text" name="email" /></label><br />
+        <label>Mobile: <br /> 
+        <input type="text" name="mobile" /></label><br />
+        <label>Telephone:<br />
+        <input type="text" name="telephone" /></label>
+    </fieldset>
 
     <h1>Contact</h1>
 
     <div>
-        <h3>CareerFoundry GmbH</h3>
-        <p>c/o Factory Görlitzer Park</p>
-        <p>Lohmühlenstraße 65</p>
-        <p>12435 Berlin</p>
-        <p>Deutschland</p>
-        <br>
         <a href="tel:+682429677 ">Tel: +6824296577</a>
         <br>
         <a href="mailto:atakoraj@ymail.com">Email: atakoraj@ymail.com</a>
