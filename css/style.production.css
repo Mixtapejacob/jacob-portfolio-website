@@ -140,11 +140,6 @@ margin-left: 16px;
 display: grid;
 }
 
-
-.grid__item {
-background-color: lightgray;
-}
-
 .grid {
 display: grid;
 grid-template-columns: 300px 300px 300px;
